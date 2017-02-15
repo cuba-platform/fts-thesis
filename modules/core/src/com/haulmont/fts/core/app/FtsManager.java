@@ -531,7 +531,7 @@ public class FtsManager implements FtsManagerAPI {
                     return ids.size();
                 } else {
                     List<BaseEntity> entities = em.createQuery("select e from " + entityName + " e where e.id not in " +
-                            "(select q.entityId from sys$FtsQueue q where q.entityName = :entityName)", BaseEntity.class)
+                            "(select q.entityId from sys$FtsQueue q where q.entityName = :entityName)")
                             .setParameter("entityName", entityName)
                             .setMaxResults(reindexBatchSize)
                             .getResultList();
