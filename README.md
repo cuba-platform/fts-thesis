@@ -2,7 +2,7 @@
 # Special version for THESIS ECM
 
 [![license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Build Status](https://travis-ci.org/cuba-platform/fts.svg?branch=master)](https://travis-ci.org/cuba-platform/fts)
+[![Build Status](https://travis-ci.org/cuba-platform/fts.svg?branch=master)](https://travis-ci.org/cuba-platform/fts-thesis)
 [![Documentation](https://img.shields.io/badge/documentation-online-03a9f4.svg)](https://docs.cuba-platform.com/cuba/5.6/fts/ru/html-single/fts.html)
 
 CUBA Full-Text Search Subsystem provides unstructured search within the values of entity attributes and content of uploaded files.
